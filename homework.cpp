@@ -8,7 +8,12 @@ void displayList(std::vector<T> const &v);
 int main()
 {
     // You can follow along with any code in class here
+    std::vector<int> baubau = {1,2,3,4,5};
+    std::vector<double> subasuba = {1.1, 2.2, 3.3, 4.4, 5.5};
+    std::vector<std::string> konkon = {"bao", "peopeo", "mint", "coco", "laplus"};
 
+    std::cout << "Task 2: " << std::endl;
+    std::cout << baubau[0] << " " << baubau[2] << " " << baubau[4] << " " << std::endl;
     
     return 0;
 }
