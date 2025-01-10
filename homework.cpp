@@ -14,6 +14,18 @@ int main()
 
     std::cout << "Task 2: " << std::endl;
     std::cout << baubau[0] << " " << baubau[2] << " " << baubau[4] << " " << std::endl;
+
+    std::cout << "Task 3: " << std::endl;
+    displayList(konkon);
+    konkon.push_back("YourName");
+    std::cout <<"After appending a name: " << std::endl;
+    displayList(subasuba);
+
+    std::cout << "Task 4: " << std::endl;
+    displayList(subasuba);
+    subasuba.pop_back();
+    std::cout << "After removing the last element: " << std::endl;
+    displayList(subasuba);
     
     return 0;
 }
